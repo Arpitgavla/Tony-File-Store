@@ -30,14 +30,14 @@ def is_enabled(value, default):
 # Ask Doubt on telegram @TonyStarkBotzXBotz
       
 # Owner Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-ADMINS = int(environ.get("ADMINS", ""))
+API_ID = int(environ.get("API_ID", "29236719"))
+API_HASH = environ.get("API_HASH", "1ccf1bd0a86af974e3210a55f662c062")
+ADMINS = int(environ.get("ADMINS", "893383574"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetonystark")
-DB_URI = environ.get("DB_URI", "")
+DB_URI = environ.get("DB_URI", "mongodb+srv://keshavptdr98:D8lbdQUW4euV07l4@cluster0.dok926y.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "tonystarkbotz")
 
 # Don't Remove Credit Tg - @TonyStark_Botz
@@ -45,7 +45,7 @@ DB_NAME = environ.get("DB_NAME", "tonystarkbotz")
 # Ask Doubt on telegram @TonyStarkBotzXBotz
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7450654387:AAGuBPZxTv3CFABjVnoi_wlzAkL6RhwJLbs")
 BOT_USERNAME = environ.get("BOT_USERNAME", "") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
@@ -54,7 +54,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002168613049"))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 
 # Don't Remove Credit Tg - @TonyStark_Botz
